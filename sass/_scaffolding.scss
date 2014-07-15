@@ -5,6 +5,10 @@ $container_padding: 20px;
     box-sizing: border-box;
 }
 
+body {
+    padding-top: 80px;
+}
+
 .container {
     width: $container_width;
     margin: 0 auto;
@@ -13,6 +17,9 @@ $container_padding: 20px;
 
 .header {
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 
     h1 {
         margin: 0;
@@ -21,7 +28,7 @@ $container_padding: 20px;
 }
 
 h2 {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .lead:first-of-type {
@@ -33,5 +40,56 @@ ul {
 
     li {
         margin-bottom: 8px;
+    }
+}
+
+.functions {
+    background-color: #e9e9e9;
+    text-transform: lowercase;
+
+    h3 {
+        float: left;
+        margin: 0 30px 0 0;
+        padding: 8px 20px;
+        background-color: #a9a9a9;
+        color: #fff;
+        font-weight: 300;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        float: left;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 20px 0 0;
+        list-style: none;
+        line-height: 40px;
+
+        &:after {
+            content: ',';
+        }
+
+        &:last-of-type:after {
+            content: '';
+        }
+    }
+
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+}
+
+.graphic {
+    width: 100%;
+
+    img {
+        width: 100%;
     }
 }

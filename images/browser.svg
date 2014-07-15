@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="802px" height="341px" viewBox="0 0 802 341" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>browser 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Browser" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)">
+            <rect id="viewport" stroke="#E4E4E4" fill="#FCFCFC" sketch:type="MSShapeGroup" x="0" y="39" width="800" height="300" rx="4"></rect>
+            <g id="top-bar" transform="translate(0.000000, 39.000000)" sketch:type="MSShapeGroup">
+                <rect id="background" fill="#939393" x="0" y="0" width="800" height="70" rx="4"></rect>
+                <g id="window-buttons" transform="translate(9.000000, 9.000000)" stroke="#979797">
+                    <circle id="close" fill="#E06757" cx="7" cy="7" r="7"></circle>
+                    <circle id="minus" fill="#DDB36C" cx="27" cy="7" r="7"></circle>
+                    <circle id="plus" fill="#8BC16F" cx="47" cy="7" r="7"></circle>
+                </g>
+                <g id="tabs" transform="translate(73.000000, 2.000000)" stroke="#979797" fill="#D8D8D8">
+                    <path d="M306.70498,0 C304.494817,0 302.255677,1.74259767 301.707913,3.87587816 L295,30 L447,30 L442.713073,3.95282546 C442.353774,1.76974024 440.275088,0 438.060649,0 L306.70498,0 Z" id="tab-3"></path>
+                    <path d="M159.70498,0 C157.494817,0 155.255677,1.74259767 154.707913,3.87587816 L148,30 L300,30 L295.713073,3.95282546 C295.353774,1.76974024 293.275088,0 291.060649,0 L159.70498,0 Z" id="tab-2"></path>
+                    <path d="M11.7049802,0 C9.4948166,0 7.25567674,1.74259767 6.70791254,3.87587816 L0,30 L152,30 L147.713073,3.95282546 C147.353774,1.76974024 145.275088,0 143.060649,0 L11.7049802,0 Z" id="tab1"></path>
+                </g>
+            </g>
+            <g id="toolbar" transform="translate(0.000000, 71.000000)" sketch:type="MSShapeGroup">
+                <path d="M0,0 L0,39 L419.679688,39 L800,39 L800,0 L0,0 Z" id="background" fill="#D8D8D8"></path>
+                <rect id="address-bar" stroke="#CCCCCC" fill="#FEFEFE" x="105" y="6" width="685" height="27" rx="3"></rect>
+                <g id="controls" transform="translate(9.000000, 3.000000)" fill="#939393">
+                    <path d="M21,4 L21,29 L0,16.5 L21,4 Z" id="backward"></path>
+                    <path d="M51,4 L51,29 L30,16.5 L51,4 Z" id="forward" transform="translate(40.500000, 16.500000) rotate(-180.000000) translate(-40.500000, -16.500000) "></path>
+                    <path d="M63.7938364,7.03343228 C60.3287178,9.07527702 58,12.8721211 58,17.21875 C58,23.7253547 63.2181984,29 69.6551724,29 C76.0921464,29 81.3103448,23.7253547 81.3103448,17.21875 C81.3103448,14.9822366 80.693814,12.8912793 79.6231759,11.1100585 L79.6231759,11.1100585 L75.3997103,14.6602602 C75.7413336,15.4428458 75.9310345,16.3084048 75.9310345,17.21875 C75.9310345,20.7223064 73.1212353,23.5625 69.6551724,23.5625 C66.1891095,23.5625 63.3793103,20.7223064 63.3793103,17.21875 C63.3793103,14.9438406 64.5639473,12.9486109 66.3436762,11.8289834 L67.9558338,14.8610109 L73.8980429,5.02993683 L62.4248719,4.4587846 L63.7938364,7.03343228 Z" id="Oval-4"></path>
+                </g>
+            </g>
+            <text id="Address-Bar" sketch:type="MSTextLayer" font-family="Roboto" font-size="15" font-weight="normal" fill="#333333">
+                <tspan x="112" y="96">Address Bar</tspan>
+            </text>
+            <g id="Tabs-label" transform="translate(84.000000, 0.000000)">
+                <path d="M-0.0341796875,33.1679688 C-0.0341796875,33.1679688 2.50423177,24 5.54980469,24 L423.554688,24 C426.536458,24 430.572266,33.1679688 430.572266,33.1679688" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+                <text id="Tabs" sketch:type="MSTextLayer" font-family="Roboto" font-size="15" font-weight="normal" fill="#000000">
+                    <tspan x="164" y="14">Tabs</tspan>
+                </text>
+            </g>
+            <g id="controls-label" transform="translate(5.000000, 116.000000)">
+                <path d="M-0.00705798651,9.16796875 C-0.00705798651,9.16796875 2.41797471,5.68434189e-14 3.04687492,5.68434189e-14 L84.9755851,5.68434189e-14 C85.5913104,5.68434189e-14 88.9116743,9.16796875 88.9116743,9.16796875" id="Line-2" stroke="#979797" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup" transform="translate(44.500000, 4.500000) rotate(-180.000000) translate(-44.500000, -4.500000) "></path>
+                <text id="Controls" sketch:type="MSTextLayer" font-family="Roboto" font-size="15" font-weight="normal" fill="#000000">
+                    <tspan x="17" y="32">Controls</tspan>
+                </text>
+            </g>
+            <g id="Viewport-label" transform="translate(10.000000, 118.000000)">
+                <text id="Viewport" sketch:type="MSTextLayer" font-family="Roboto" font-size="15" font-weight="normal" fill="#000000">
+                    <tspan x="318" y="129">Viewport</tspan>
+                </text>
+                <path d="M346,105.019135 L346,0.5" id="Line" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7" sketch:type="MSShapeGroup"></path>
+                <path id="Line-decoration-1" d="M346,1.01913452 C344.95,4.79913452 344.05,8.03913452 343,11.8191345 C345.1,11.8191345 346.9,11.8191345 349,11.8191345 C347.95,8.03913452 347.05,4.79913452 346,1.01913452 C346,1.01913452 346,1.01913452 346,1.01913452 Z" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7"></path>
+                <path d="M399.998665,123 L774.5,123" id="Line-4" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7" sketch:type="MSShapeGroup"></path>
+                <path id="Line-4-decoration-1" d="M773.998665,123 C770.218665,121.95 766.978665,121.05 763.198665,120 C763.198665,122.1 763.198665,123.9 763.198665,126 C766.978665,124.95 770.218665,124.05 773.998665,123 C773.998665,123 773.998665,123 773.998665,123 Z" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7"></path>
+                <path d="M296.031677,123.666667 L-0.5,123.666667" id="Line-5" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7" sketch:type="MSShapeGroup"></path>
+                <path id="Line-5-decoration-1" d="M0.0316772461,123.666667 C3.81167725,124.716667 7.05167725,125.616667 10.8316772,126.666667 C10.8316772,124.566667 10.8316772,122.766667 10.8316772,120.666667 C7.05167725,121.716667 3.81167725,122.616667 0.0316772461,123.666667 C0.0316772461,123.666667 0.0316772461,123.666667 0.0316772461,123.666667 Z" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7"></path>
+                <path d="M346.666667,149.984278 L346.666667,206.531281" id="Line-3" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7" sketch:type="MSShapeGroup"></path>
+                <path id="Line-3-decoration-1" d="M346.666667,205.984278 C347.716667,202.204278 348.616667,198.964278 349.666667,195.184278 C347.566667,195.184278 345.766667,195.184278 343.666667,195.184278 C344.716667,198.964278 345.616667,202.204278 346.666667,205.984278 C346.666667,205.984278 346.666667,205.984278 346.666667,205.984278 Z" stroke="#D6D6D6" stroke-width="2" stroke-linecap="square" fill="#D7D7D7"></path>
+            </g>
+        </g>
+    </g>
+</svg>
