@@ -5,7 +5,8 @@ body {
   padding-top: 80px; }
 
 .container {
-  width: 960px;
+  max-width: 960px;
+  min-width: 480px;
   margin: 0 auto;
   padding: 20px; }
 
@@ -62,6 +63,14 @@ ul {
     display: table;
     clear: both; }
 
+@media (max-width: 700px) {
+  .functions h3 {
+    float: none;
+    margin-right: 0; }
+  .functions li {
+    display: block;
+    margin-left: 20px; } }
+
 .graphic {
   width: 100%; }
   .graphic img {
@@ -79,6 +88,15 @@ ul {
   .definition p {
     font-size: 14px;
     margin-left: 10px; }
+
+@media (max-width: 700px) {
+  .definition {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    padding: 0; }
+    .definition p {
+      margin-left: 20px; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;

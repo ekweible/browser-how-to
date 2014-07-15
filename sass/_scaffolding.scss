@@ -1,4 +1,5 @@
-$container_width: 960px;
+$max_container_width: 960px;
+$min_container_width: 480px;
 $container_padding: 20px;
 
 * {
@@ -10,7 +11,8 @@ body {
 }
 
 .container {
-    width: $container_width;
+    max-width: $max_container_width;
+    min-width: $min_container_width;
     margin: 0 auto;
     padding: $container_padding;
 }
@@ -92,6 +94,23 @@ ul {
 
 }
 
+@media (max-width: 700px) {
+
+    .functions {
+
+        h3 {
+            float: none;
+            margin-right: 0;
+        }
+
+        li {
+            display: block;
+            margin-left: 20px;
+        }
+    }
+
+}
+
 .graphic {
     width: 100%;
 
@@ -116,4 +135,19 @@ ul {
         font-size: 14px;
         margin-left: 10px;
     }
+}
+
+@media (max-width: 700px) {
+
+    .definition {
+        width: auto;
+        float: none;
+        margin-left: 0;
+        padding: 0;
+
+        p {
+            margin-left: 20px;
+        }
+    }
+
 }
