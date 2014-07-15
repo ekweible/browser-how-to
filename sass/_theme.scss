@@ -1,0 +1,18 @@
+$blue: #03A9F4;
+
+body {
+    background-color: #F9F9F9;
+}
+
+.header {
+    background-color: $blue;
+    color: #ffffff;
+
+    .container {
+        background-color: transparent;
+    }
+}
+
+a {
+    color: #0277BB;
+}
