@@ -29,6 +29,12 @@ body {
 
 h2 {
     margin-top: 50px;
+
+    &:before {
+        content: '';
+        display: table;
+        clear: both;
+    }
 }
 
 .lead:first-of-type {
@@ -91,5 +97,23 @@ ul {
 
     img {
         width: 100%;
+    }
+}
+
+.definition {
+    width: 240px;
+    float: right;
+    margin: 10px 0 30px 15px;
+    padding: 5px;
+
+    h4 {
+        margin: 0 0 8px;
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 14px;
+        margin-left: 10px;
     }
 }

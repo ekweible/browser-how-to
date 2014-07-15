@@ -20,6 +20,10 @@ body {
 
 h2 {
   margin-top: 50px; }
+  h2:before {
+    content: '';
+    display: table;
+    clear: both; }
 
 .lead:first-of-type {
   margin-top: 0; }
@@ -63,6 +67,19 @@ ul {
   .graphic img {
     width: 100%; }
 
+.definition {
+  width: 240px;
+  float: right;
+  margin: 10px 0 30px 15px;
+  padding: 5px; }
+  .definition h4 {
+    margin: 0 0 8px;
+    padding: 10px;
+    font-weight: 500; }
+  .definition p {
+    font-size: 14px;
+    margin-left: 10px; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400; }
@@ -97,3 +114,10 @@ body {
 
 a {
   color: #0277BB; }
+
+.definition h4 {
+  background-color: #058272;
+  color: #fff; }
+
+.key-term {
+  font-weight: 700; }
